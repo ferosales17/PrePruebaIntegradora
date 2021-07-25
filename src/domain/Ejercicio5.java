@@ -12,7 +12,7 @@ public class Ejercicio5 {
 
     }
 
-    public static void maxLength(String arr[]) {
+    public  static void maxLength(String arr[]) {
         int max = 0, min = 0, cont = 0;
         for (int i = 0; i < arr.length; i++) {
             String nombre = arr[i];
@@ -30,5 +30,6 @@ public class Ejercicio5 {
             }
         }
         System.out.println("max = " + max);
+
     }
 }
