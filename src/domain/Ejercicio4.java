@@ -5,9 +5,6 @@ public class Ejercicio4 {
         String personas[] = new String[2];
         personas[0] = "Fede";
         personas[1] = "Rosales";
-        //for (int i =0;i< personas.length; i++){
-        //    System.out.println("personas["+ i +"] = " + personas[i]);
-        //}
         toIntArray(personas);
     }
 

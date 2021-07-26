@@ -8,11 +8,11 @@ public class Ejercicio5 {
         personas[2] = "Juan";
         personas[3] = "Juancastro";
 
-        maxLength(personas);
-
+        int maxValue = maxLength(personas);
+        System.out.println("maxValue = " + maxValue);
     }
 
-    public  static void maxLength(String arr[]) {
+    public  static int maxLength(String arr[]) {
         int max = 0, min = 0, cont = 0;
         for (int i = 0; i < arr.length; i++) {
             String nombre = arr[i];
@@ -29,7 +29,6 @@ public class Ejercicio5 {
                 min = cont;
             }
         }
-        System.out.println("max = " + max);
-
+        return max;
     }
 }
